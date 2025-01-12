@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<Description>TwitchChat.Parser is a library for parsing Twitch chat messages.</Description>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="NowaLone.IrcNet.Parser.V3" Version="1.0.2" />
+	</ItemGroup>
+
+</Project>

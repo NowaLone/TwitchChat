@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<Description>Extensions for the TwitchChat.Client library, providing additional functionality and utilities for interacting with Twitch chat via IRC.</Description>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="NowaLone.IrcNet.Client.V3.Extensions" Version="1.0.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\TwitchChat.Client\TwitchChat.Client.csproj" />
+	</ItemGroup>
+
+</Project>
